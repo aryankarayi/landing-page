@@ -8,6 +8,10 @@ body {
     margin: 0;
 }
 
+
+/* HEADER */
+
+
 .header {
     display: flex;
     background-color: #1F2937;
@@ -30,3 +34,60 @@ body {
     color: #F9FAF8;
     font-weight: 800;
 }
+
+
+/* CONTENT */
+
+
+.content {
+    background-color: #1F2937;
+    color: white;
+    display:flex;
+    padding: 100px 210px;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    width: 360px;
+}
+
+.subtext {
+    width: 460px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #E5E7EB
+}
+
+.content button {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 14px;
+    width: 138px;
+    color: white;
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 8px;
+    padding: 8px 40px 8px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    white-space: nowrap;
+
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 12px;
+}
+
+.image {
+    height: 250px;
+}
+
