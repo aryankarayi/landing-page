@@ -132,3 +132,34 @@ img {
     margin-top: 8px;
     color: #4b5563;
 }
+
+/* QUOTE-SECTION */
+
+.quote-section {
+    height: 400px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    width: 800px;
+    display: flex;
+    align-self: center;
+    padding-top: 100px;
+
+}
+
+.source-container {
+    display: flex;
+    width: auto;
+    justify-content: flex-end;
+}
+.source {
+    font-weight: 700;
+    font-size: 22px;
+    padding-right: 280px;
+}
