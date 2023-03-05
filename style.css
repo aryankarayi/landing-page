@@ -208,3 +208,17 @@ img {
     font-size: 18px;
     font-weight: 500;
 }
+
+.footer {
+    height: 80px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: white;
+    font-size: 18px;
+    font-weight: 350;
+}
