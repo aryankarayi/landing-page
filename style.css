@@ -163,3 +163,48 @@ img {
     font-size: 22px;
     padding-right: 280px;
 }
+
+/* CTA-SECTION */
+
+.cta-section {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    display: flex;
+    background-color: #3882F6;
+    gap: 250px;
+    border-radius: 8px;
+    height: 160px;
+}
+
+.cta-left {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 8px;
+    margin-left: 80px;
+    align-self: center;
+}
+
+.cta-header {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.cta-button {
+    align-self: center;
+    margin-right: 120px;
+    background-color:#3882F6;
+    border: 2px solid white;
+    height: 40px;
+    width: 120px;
+    color: white;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+}
